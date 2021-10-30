@@ -25,8 +25,7 @@ Install the following:
 
 -npm i morgan
 ### Usage
-* With this app the user can add exercises to the most recent workout plan and add new exercises to a new workout plan.
-    In addition, the user can view the combined weight of multiple exercises from the past seven workouts on the stats page and view the totla duration of each workout from the past seven workouts on the stats page. The user may continue the workout at any time of that specific day. Next, the user can see dashboard to compare their fitness.
+* With this app the user can add exercises to the most recent workout plan and add new exercises to a new workout plan. In addition, the user can view the combined weight of multiple exercises from the past seven workouts on the stats page and view the totla duration of each workout from the past seven workouts on the stats page. The user may continue the workout at any time of that specific day. Next, the user can see dashboard to compare their fitness.
 
 ### Contribution
 none
