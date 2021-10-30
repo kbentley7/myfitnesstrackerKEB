@@ -38,3 +38,15 @@ router.get("/api/workouts/range", (req, res) => {
         res.status(400).json(err);
       });
   });
+
+  //Create a new workout
+  router.post("/api/workouts", ({ body }, res) => {
+    console.log(body);
+    db.Workout.create({})
+      .then((newWorkout) => {
+        res.json(newWorkout);
+      })
+      .catch((err) => {
+        res.status(400).json(err);
+      });
+  });
