@@ -22,6 +22,8 @@
   "homepage": "https://github.com/kbentley7/myfitnesstrackerKEB#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.0.12"
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
   }
 }
