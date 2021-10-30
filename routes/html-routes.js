@@ -10,9 +10,12 @@ router.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 
-  
+
   // route to get to stats page
 
+  router.get("/stats", function(req, res){
+    res.sendFile(path.join(__dirname, "../public/stats.html"));
+  });
   
   //Route to get to excercise page to begin a workout
 
