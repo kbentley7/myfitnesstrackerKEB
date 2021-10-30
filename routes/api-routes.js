@@ -4,6 +4,7 @@ const db = require("../models");
 
 
 // Aggregate function to add totalDuration 
+
 router.get("/api/workouts", (req, res) => {
     db.Workout.aggregate([
       {
@@ -21,6 +22,7 @@ router.get("/api/workouts", (req, res) => {
   });
 
 //Route to add sort
+
 router.get("/api/workouts/range", (req, res) => {
     db.Workout.aggregate([
       {
@@ -40,6 +42,7 @@ router.get("/api/workouts/range", (req, res) => {
   });
 
   //Create a new workout
+
   router.post("/api/workouts", ({ body }, res) => {
     console.log(body);
     db.Workout.create({})
@@ -52,6 +55,7 @@ router.get("/api/workouts/range", (req, res) => {
   });
 
   //Route to add exercise to current workout
+
   router.put("/api/workouts/:id", (req, res) => {
     db.Workout.findByIdAndUpdate(
       req.params.id,
@@ -65,3 +69,17 @@ router.get("/api/workouts/range", (req, res) => {
         res.status(400).json(err);
       });
   });
+
+//Route to delete a workout
+
+ router.delete("/api/workouts/:id", (req, res) => {
+  db.Workout.findByIdAndDelete(req.params.id)
+   .then((results) => {
+      res.json(results);
+    })
+   .catch((err) => {
+    res.status(400).json(err);
+    });
+ });
+
+module.exports = router;
