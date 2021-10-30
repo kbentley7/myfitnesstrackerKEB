@@ -19,6 +19,10 @@ router.get("/", function(req, res) {
   
   //Route to get to excercise page to begin a workout
 
+  router.get("/exercise", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/exercise.html"));
+  });
+
   
   
   module.exports = router;
