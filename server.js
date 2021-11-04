@@ -6,7 +6,7 @@ const logger = require("morgan");
 const db = require("./models");
 
 // setting PORT
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // creating instance of express
 const app = express();
