@@ -10,10 +10,18 @@
 - [Contact Information](#contact-information)
 
 ### Description
-Create a functional Team Generator using node.js 
-[Demo Link](https://drive.google.com/file/d/1SL4-IvkRsMZYDZ2BDZKnEuoQHXLoFPs4/view?usp=sharing)
+Thie app will track your workouts with Fitness Tracker. All exercises are tracked by the app and a weelky summary graphs will be displayed by the dashboard app.
 
-[Testing Link](https://drive.google.com/file/d/1sUPXLl210UABFemc6U0iSSMSk4mjXK2u/view?usp=sharing)
+[Heroku Link](https://vast-journey-20834.herokuapp.com/?id=6188237e807ef1fdd4d7ac80)
+
+### Screen Shots
+<img width="1199" alt="Screen Shot 2021-11-07 at 2 07 31 PM" src="https://user-images.githubusercontent.com/89366416/140658599-93a1ab0a-b909-44d0-985e-077125cf9521.png">
+
+<img width="1210" alt="Screen Shot 2021-11-07 at 2 06 52 PM" src="https://user-images.githubusercontent.com/89366416/140658604-37566c0e-25f0-453a-a25b-cc2ccf3e2831.png">
+
+
+
+
 
 ### Installation
 Install the following: 
