@@ -2,7 +2,7 @@
   "name": "myfitnesstrackerKEB",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -14,8 +14,8 @@
     "url": "git+https://github.com/kbentley7/myfitnesstrackerKEB.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kenneth E. Bentley, Sr.",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kbentley7/myfitnesstrackerKEB/issues"
   },
@@ -23,7 +23,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.12",
-    "morgan": "^1.10.0",
-    "path": "^0.12.7"
+    "morgan": "^1.10.0"
   }
 }
